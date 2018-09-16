@@ -1,30 +1,15 @@
 package deavila.richard.petclinic.service.map;
 
 import deavila.richard.petclinic.model.Owner;
-import deavila.richard.petclinic.service.CrudService;
+import deavila.richard.petclinic.service.OwnerService;
 
-import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
+    //TODO
     @Override
-    public Owner findById(Long id) {
-        return super.findById(id);
-    }
-
-    @Override
-    public Set<Owner> findAll() {
-        return super.findAll();
-    }
-
-    @Override
-    public void deleteById(Long id) {
-        super.deleteById(id);
-    }
-
-    @Override
-    public void delete(Owner object) {
-        super.delete(object);
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 
     @Override
