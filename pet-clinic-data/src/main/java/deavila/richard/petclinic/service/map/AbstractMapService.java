@@ -1,6 +1,5 @@
 package deavila.richard.petclinic.service.map;
 
-import deavila.richard.petclinic.model.BaseEntity;
 import deavila.richard.petclinic.service.CrudService;
 
 import java.util.HashMap;
